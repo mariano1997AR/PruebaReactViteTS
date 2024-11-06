@@ -1,5 +1,6 @@
 {
   "name": "prueba1",
+  "homepage": "https://github.com/mariano1997AR/PruebaReactViteTS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
