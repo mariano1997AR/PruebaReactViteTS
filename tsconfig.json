@@ -1,13 +1,29 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "outDir": "./dist"
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "outDir": "./dist",  // Directorio de salida
+    "declaration": true, // Si quieres generar archivos .d.ts
+    "declarationMap": true,
+    "sourceMap": true // Para depuración en el navegador (opcional)
   },
-  "include": ["main.tsx"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
