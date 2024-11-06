@@ -1,19 +1,5 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react-jsx",
-    "outDir": "./dist",  // Directorio de salida
-    "declaration": true, // Si quieres generar archivos .d.ts
-    "declarationMap": true,
-    "sourceMap": true, // Para depuración en el navegador (opcional)
-    "composite": true,
-  },
+
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
