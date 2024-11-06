@@ -11,19 +11,13 @@
     "outDir": "./dist",  // Directorio de salida
     "declaration": true, // Si quieres generar archivos .d.ts
     "declarationMap": true,
-    "sourceMap": true // Para depuración en el navegador (opcional)
+    "sourceMap": true, // Para depuración en el navegador (opcional)
+    "composite": false,
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  
+
   ],
-  "exclude": [
-    "node_modules"
-  ]
 }
